@@ -4,7 +4,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "wds --root ./ejercicios"
+    "scripts": {
+    "ej1": "wds --open ejercicios/Ejercicio1/index.html",
+    "ej2": "wds --open ejercicios/Ejercicio2/index.html",
+    "ej3": "wds --open ejercicios/Ejercicio3/index.html",
+    "ej4": "wds --open ejercicios/Ejercicio4/index.html",
+    "ej5": "wds --open ejercicios/Ejercicio5/index.html",
+    "ej6": "wds --open ejercicios/Ejercicio6/index.html",
+    "ej7": "wds --open ejercicios/Ejercicio7/index.html",
+    "ej8": "wds --open ejercicios/Ejercicio8/index.html",
+    "ej9": "wds --open ejercicios/Ejercicio9/index.html",
+    "ej10": "wds --open ejercicios/Ejercicio10/index.html"
+}
+
   },
   "keywords": [],
   "author": "",
