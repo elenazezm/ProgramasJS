@@ -4,7 +4,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scripts": {
     "ej1": "wds --open ejercicios/Ejercicio1/index.html",
     "ej2": "wds --open ejercicios/Ejercicio2/index.html",
     "ej3": "wds --open ejercicios/Ejercicio3/index.html",
@@ -15,8 +14,6 @@
     "ej8": "wds --open ejercicios/Ejercicio8/index.html",
     "ej9": "wds --open ejercicios/Ejercicio9/index.html",
     "ej10": "wds --open ejercicios/Ejercicio10/index.html"
-}
-
   },
   "keywords": [],
   "author": "",
