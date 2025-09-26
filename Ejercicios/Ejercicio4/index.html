@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAES imaginario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1 class="titulo"> Calificacion de Algoritmos</h1>
+
+      <form id="formCalificacion">
+        <label for="calificacion">Ingresa la suma de las calificaciones de los 3 departamentales</label>
+        <input type="number" id="parciales" name="parciales" placeholder="Ej. 25">
+
+        <label for="examenf">Ingrese la calificacion a dos digitos de su examen final</label>
+        <input type="number" id="examenf" name="examenf" placeholder="Ej. 8">
+
+        <label for="trabajo">Ingrese la calificacion a dos digitos del trabajo final</label>
+        <input type="number" id="trabajo" name="trabajo" placeholder="Ej. 7">
+        <button type="submit">Calcular</button>
+      </form>
+
+      <div id="resultadoBox">
+        <h2 id="Resultado">Aquí aparecerá el resultado</h2>
+      </div>
+    </div>
+  </div>
+
+  <script src="calificacion.js"></script>
+</body>
+</html>

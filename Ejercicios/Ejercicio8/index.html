@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculo de Utilidades</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1 class="titulo">Reparto de Utilidades</h1>
+
+      <form id="formUtilidad">
+        <label for="salario">Ingrese su salario mensual:</label>
+        <input type="number" id="salario" name="salario" placeholder="Ej. 10000">
+
+        <label for="antiguedad">Ingrese su antigüedad en años:</label>
+        <input type="number" id="antiguedad" name="antiguedad" placeholder="Ej. 3">
+
+        <button type="submit">Calcular</button>
+      </form>
+
+      <div id="resultadoBox">
+        <h2 id="Resultado">Aquí aparecerá la utilidad</h2>
+      </div>
+    </div>
+  </div>
+
+  <script src="utilidad.js"></script>
+</body>
+</html>
