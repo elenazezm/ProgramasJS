@@ -1,0 +1,155 @@
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #fff0f6;
+  --primary: #ff4d94;
+  --secondary: #ff85c1;
+  --text: #4a0033;
+  --card: #ffe6f0;
+  --border: #ffb3d9;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+#sidebar {
+  background: var(--card);
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+#search {
+  margin-bottom: 15px;
+}
+
+#filter {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+}
+
+#filter:focus {
+  border-color: var(--primary);
+}
+
+#list ul {
+  list-style: none;
+}
+
+#list li {
+  margin: 6px 0;
+}
+
+#list button {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--secondary);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#list button:hover {
+  background: var(--primary);
+}
+
+#content {
+  background: var(--card);
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+#controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+#controls button {
+  padding: 8px 12px;
+  background: var(--primary);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#controls button:hover {
+  background: var(--secondary);
+}
+
+#serverStatus {
+  margin-left: auto;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+#preview {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  min-height: 200px;
+  font-family: monospace;
+  color: var(--text);
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: var(--text);
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: var(--text);
+}
